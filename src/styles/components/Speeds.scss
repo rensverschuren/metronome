@@ -1,0 +1,10 @@
+.speeds {
+  display: flex;
+  padding-top: 30px;
+}
+
+.speeds__speed {
+  flex-grow: 1;
+  background-color: $color-orange;
+  padding: 1em;
+}

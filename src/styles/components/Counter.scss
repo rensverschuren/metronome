@@ -1,0 +1,29 @@
+@keyframes highlight {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+.counter {
+  background-color: $color-grey-dark;
+  display: flex;
+  height: 200px;
+  width: 100%;
+  flex-direction: row;
+}
+
+.counter__beat {
+  flex-grow: 1;
+  box-sizing: border-box;
+  font-size: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &--active {
+    animation: highlight 0.5s ease;
+    background-color: $color-orange;
+  }
+}
