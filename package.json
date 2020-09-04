@@ -64,7 +64,7 @@
     "classnames": "^2.2.5",
     "core-js": "^2.0.0",
     "import-glob-loader": "^1.1.0",
-    "node-sass": "^3.13.0",
+    "node-sass": "^4.13.1",
     "normalize.css": "^4.0.0",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
